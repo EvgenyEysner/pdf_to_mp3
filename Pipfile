@@ -4,9 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-gtts = "==2.2.4"
-pdfplumber = "==0.6.1"
-art = "==5.6"
+gtts = "==2.2.4" # gTTS (Google Text-to-Speech), a Python library with Google Translate’s text-to-speech API.
+pdfplumber = "==0.6.1" # Plumb a PDF for detailed information about each text character, rectangle, and line.
+art = "==5.6" # ASCII art is also known as "computer text art".
+black = "*"
 
 [dev-packages]
 
